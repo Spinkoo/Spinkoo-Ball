@@ -1,0 +1,32 @@
+<!-- Spinkoo copyright ® -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF=8">
+<title>BOX2D Practice</title>
+
+<style>
+body{
+background-color:#FFF;
+}
+#canvas{
+background-color:#5B0;}
+</style>
+	  <script type="text/javascript" src="Box2d.min.js"></script> 
+</head>
+
+<body onload="init()">
+	<div class="slidecontainer" 	style="width:800px;background-color:#5B0">
+		<label for="" class="pull-left" style=" font-family:Monospace;position:absolute;padding-top:2px;font-size:18px">Game level</label>
+
+  <input type="range" min="0" max="2" value="0" id="myRange"  style="position:absolute;right:85%">
+</div>
+
+      <canvas id="canvas" width="800" height="560" ></canvas>
+	  <div id="ScoreDiv" style="font-size:30px;position:absolute;right:75%;color:black"></div><br><br><br>
+	  <div id="stats" style="font-size:25px;position:absolute;right:80%"></div>
+
+    <script type="text/javascript" src="Game.js"></script>
+ </body>     
+   
+</html>
