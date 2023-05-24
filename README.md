@@ -26,5 +26,5 @@ About the game level :
 the game level deterimnes the speed & the time between generating the boxes 
 
 
-![](https://github.com/Spinkoo/Spinkoo-Ball/game%20play.gif)
+![](https://github.com/Spinkoo/Spinkoo-Ball/game_play.gif)
                                                                           
